@@ -1,0 +1,385 @@
+body {
+    font-family: 'Arvo', serif;
+
+    font-size: 15px;
+    width: 100%;
+}
+
+.header {
+    background-color: #f0394d;
+    padding: 10px;
+    z-index: 1100;
+    width: 100%;
+    opacity: 0.7
+    
+
+}
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 8%;
+    height: 100%;
+}
+.nav-item a{
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.css-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    margin-left: 20px;
+}
+.slide-title-outer {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.title-inner {
+    text-align: center;
+    color: #fff;
+}
+.carousel-control-prev{
+    z-index: 25;
+}
+.carousel-control-next{
+    z-index: 25;
+}
+
+
+#save-the-date {
+    font-family: 'Pacifico', cursive;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    padding-top: 90px;
+    margin-bottom: 25px;
+}
+
+#save {
+    font-size: 75px;
+    line-height: 50px;
+}
+
+#the-date {
+    font-size: 62px;
+}
+
+#date {
+    font-size: 47px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pink-dot {
+    color: #f0394d;
+}
+
+.banner-text {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.banner-text-line {
+    width: 350px;
+    display: inline-block;
+    border-top-style: double;
+    border-color: #fff;
+}
+
+.banner-text h4 {
+    color: #fff;
+    font-size: 17px;
+    height: 15px;
+
+}
+
+.titles {
+
+    margin-top: 60px;
+}
+
+.banner {
+    height: 720px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+#content {
+    background-color: #F6F6F6;
+    margin-top: -6px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+
+}
+
+.content h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #333333;
+}
+
+.content p {
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.icons {
+    margin-bottom: 50px;
+}
+
+.linegrey {
+    width: 30px;
+    height: 8px;
+    display: inline-block;
+    border-top: solid 2px #e1dddd;
+}
+
+.pinkheart {
+    color: #f0394d;
+    font-size: 18px;
+    position: relative;
+    z-index: 3;
+}
+
+.greyheart {
+    color: #e1dddd;
+    font-size: 18px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.dil-heart {
+    text-align: center;
+    margin-top: -125px;
+    margin-bottom: 20px;
+}
+
+.sub-line h4 {
+    color: #fff;
+    font-size: 18px;
+    height: 3px;
+}
+
+.pro-line {
+    width: 250px;
+    display: inline-block;
+    border-top-style: double;
+    border-color: #fff;
+}
+
+.sub-img {
+    width: 100%;
+    height: 450px;
+}
+
+.line-draw h4 {
+    left: 20%;
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+
+.para-blog p {
+    font-family: 'Arvo', serif;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 40px;
+    padding-top: 25px;
+    padding-left: 22px;
+    padding-right: 21px;
+
+}
+
+.para-blog p strong {
+    font-weight: 700;
+}
+
+.count-down {
+    margin-top: 60px;
+    margin-bottom: 44px;
+}
+
+.line-draw {
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sub-down {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sub-down h4 {
+    color: #fff;
+    font-size: 20px;
+    height: 20px;
+}
+
+.write-down {
+    font-family: 'Pacifico', cursive;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    color: #fff;
+    text-align: center;
+
+
+}
+
+.write-down h3 {
+    font-size: 3.75rem;
+}
+
+.write-down h2 {
+    font-size: 4rem;
+}
+
+.icones {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.down-line {
+    width: 625px;
+    display: inline-block;
+    border-top-style: double;
+    border-color: #fff;
+}
+
+#wedd {
+    margin-top: 30px;
+    padding-bottom: 55px;
+}
+
+.wedding {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+.wedding h1 {
+    font-weight: 550;
+}
+
+.wedding p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sub-wedding {
+    background-color: #fff;
+}
+
+.sub-wedding h1 {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+    padding-top: 17px;
+}
+
+.sub-wedding p {
+    font-size: 18px;
+    padding: 31px;
+    margin-bottom: 40px;
+    margin-top: -35px;
+}
+
+
+#footer {
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.co-foot {
+    margin-top: 30px;
+}
+
+.co-foot h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.co-foot p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.img-footer {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.sub-footer {
+    margin-top: 70px;
+    padding-top: 50px;
+    font-family: 'Pacifico';
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    color: #fff;
+    text-align: center;
+
+}
+
+.sub-footer h3 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 25px;
+
+}
+
+.icones h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
